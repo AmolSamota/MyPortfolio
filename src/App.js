@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
+import Experience from "./pages/experience/experience.component";
 //components
 import MyNavbar from "./components/my-navbar/my-navbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
@@ -40,6 +41,11 @@ const App = () => {
         </Slide>
       </Container>
    </div>
+
+
+
+
+
   );
 };
 
