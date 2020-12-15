@@ -51,7 +51,7 @@ const App = () => {
         </Slide>
       </Container>
 
-      <div>
+      {/* <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
@@ -59,7 +59,7 @@ const App = () => {
             <Experience />
           </Fade>
         </Container>
-      </div>
+      </div> */}
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />

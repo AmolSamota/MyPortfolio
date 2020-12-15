@@ -15,7 +15,11 @@
   .list-styles {
     list-style-type: circle;
   }
-  
+  .h {
+    width: 1em;
+  }
   .image-style1 {
     width: 3em;
   }
+
+  
