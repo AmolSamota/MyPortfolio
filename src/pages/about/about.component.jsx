@@ -22,6 +22,12 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Amol Samota</strong>
+                <br></br>
+                Junior Undergraduate at Indian Institute of Technology (BHU) Varanasi. Skilled in C/C++, Data Structures, and Algorithms. I have always been fascinated by Software Technology. I am avid learner and possess 
+                a good hold in Competitive Programming, along with improving my knowledge on different application of software development.
+                <br></br>
+                "Success is achieved by ordinary people with extraordinary determination" 
+                - a thought that always motivates me to do better and achieve amazing results. 
                 
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>

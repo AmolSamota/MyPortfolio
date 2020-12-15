@@ -23,6 +23,14 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_C from "../../assets/img/skills/c.png";
+import L_CL from "../../assets/img/skills/cl.png";
+import L_NET from "../../assets/img/skills/netlify.jpg";
+import L_OS from "../../assets/img/skills/os.png";
+import L_CN from "../../assets/img/skills/cn.png";
+import L_DBMS from "../../assets/img/skills/dbms.png";
+import L_DS from "../../assets/img/skills/DS.png";
+import L_OOPS from "../../assets/img/skills/oops.png";
 
 export const skills = {
   frontend: [
@@ -44,12 +52,12 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
+    // {
+    //   link: "https://sass-lang.com/",
+    //   imgAltText: "Sass",
+    //   imgSrc: L_SASS,
+    //   skillName: "Sass",
+    // },
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
@@ -62,36 +70,36 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
-    {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
-    },
-    {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
+    // {
+    //   link: "https://redux.js.org/",
+    //   imgAltText: "Redux",
+    //   imgSrc: L_REDUX,
+    //   skillName: "Redux",
+    // },
+    // {
+    //   link: "https://reacttraining.com/react-router/",
+    //   imgAltText: "React Router",
+    //   imgSrc: L_REACT_ROUTER,
+    //   skillName: "React Router",
+    // },
+    // {
+    //   link: "https://material-ui.com/",
+    //   imgAltText: "Material-UI",
+    //   imgSrc: L_MATERIALUI,
+    //   skillName: "Material-UI",
+    // },
+    // {
+    //   link: "https://react-bootstrap.github.io/",
+    //   imgAltText: "React Bootstrap",
+    //   imgSrc: L_REACT_BOOTSTRAP,
+    //   skillName: "React Bootstrap",
+    // },
+    // {
+    //   link: "https://styled-components.com/",
+    //   imgAltText: "styled-components",
+    //   imgSrc: L_STYLED_COMPONENTS,
+    //   skillName: "styled-components",
+    // },
     
   ],
 
@@ -114,12 +122,12 @@ export const skills = {
       imgSrc: L_DJANGO,
       skillName: "Django",
     },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+    // {
+    //   link: "https://flask.palletsprojects.com/",
+    //   imgAltText: "Flask",
+    //   imgSrc: L_FLASK,
+    //   skillName: "Flask",
+    // },
   ],
   hostingPlatforms: [
     {
@@ -128,52 +136,71 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
+    // {
+    //   link: "https://www.digitalocean.com/",
+    //   imgAltText: "Digital Ocean",
+    //   imgSrc: L_DIGITAL_OCEAN,
+    //   skillName: "Digital Ocean",
+    // },
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+        link: "https://www.netlify.com/",
+        imgAltText: "Netlify",
+        imgSrc: L_NET,
+        skillName: "Netlify",
+      },
   ],
   programmingLanguages: [
+    
+    {
+      link: "https://isocpp.org/",
+      imgAltText: "C++",
+      imgSrc: L_CL,
+      skillName: "C",
+    },
+
+
+
+    {
+      link: "https://isocpp.org/",
+      imgAltText: "C++",
+      imgSrc: L_C,
+      skillName: "C++",
+    },
+    
+    
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
+    // {
+    //   link: "https://www.typescriptlang.org/",
+    //   imgAltText: "TypeScript",
+    //   imgSrc: L_TYPESCRIPT,
+    //   skillName: "TypeScript",
+    // },
     {
       link: "https://www.python.org/",
       imgAltText: "Python",
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
+    
   ],
   databases: [
-    {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
+    // {
+    //   link: "https://www.postgresql.org/",
+    //   imgAltText: "PostgreSQL",
+    //   imgSrc: L_POSTGRESQL,
+    //   skillName: "PostgreSQL",
+    // },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",
@@ -196,12 +223,43 @@ export const skills = {
     },
   ],
 
-  Control: [
+  technologies: [
+
     {
       link: "https://git-scm.com/",
       imgAltText: "GIT",
-      imgSrc: L_GIT,
-      skillName: "GIT",
+      imgSrc: L_DS,
+      skillName: "DSA",
+    },
+
+    {
+      link: "https://git-scm.com/",
+      imgAltText: "GIT",
+      imgSrc: L_OOPS,
+      skillName: "OOPs",
+    },
+
+
+    {
+      link: "https://git-scm.com/",
+      imgAltText: "GIT",
+      imgSrc: L_OS,
+      skillName: "Operating System",
+    },
+
+    {
+      link: "https://git-scm.com/",
+      imgAltText: "GIT",
+      imgSrc: L_DBMS,
+      skillName: "DBMS",
+    },
+
+
+    {
+      link: "https://git-scm.com/",
+      imgAltText: "GIT",
+      imgSrc: L_CN,
+      skillName: "Computer Networks",
     },
   ],
 };
