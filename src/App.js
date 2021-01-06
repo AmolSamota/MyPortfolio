@@ -17,8 +17,27 @@ import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
 
+// const countEl = document.getElementById('count');
+
+// function updateVisitCount() {
+//   fetch('https://api.countapi.xyz/update/amol/kanha/?amount=1')
+//   .then(res => res.json())
+//   .then(res => {
+//     countEl.innerHTML = res.value;
+//   })
+// } 
+
 const App = () => {
   return (
+
+    
+
+    
+
+
+
+
+
     <div className="App" style={{ position: "relative" }}>
       <MyCarousal />
       <MyTitleMessage />
@@ -77,7 +96,12 @@ const App = () => {
 
       <hr />
       <FooterPanel />
+
+      
     </div>
+
+    // ,updateVisitCount()
+    
   );
 };
 
