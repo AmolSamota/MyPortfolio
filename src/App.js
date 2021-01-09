@@ -14,6 +14,7 @@ import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particlesOptions";
 import FooterPanel from "./components/footer/footer.component";
+import Bgimage from "./assets/img/parallex/background.webp"
 
 import "./App.css";
 
@@ -50,7 +51,8 @@ const App = () => {
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.webp")}
+          bgImage={Bgimage}
+          
           bgImageAlt=""
           strength={-200}
         >
