@@ -260,6 +260,136 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
+          <ImageEvent
+            date="16/12/2020"
+            className="text-center"
+            text="InstaBase(gallery web-app)"
+            src={L_ISS}
+            alt="React ToDo App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description: Created online images gallery
+                        </strong>
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Users can upload their pictures on online platform and also view others pictures also.</li>
+                          <li>Added authentication feature using google and email.</li>
+                    
+                        </ul>
+
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          {/* <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="HTML 5"
+                                rounded
+                                className="h image-style m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li> */}
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          {/* <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li> */}
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+
+                          {/* <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li> */}
+                          
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+
+                <UrlButton
+                  href="https://instabase.netlify.app/login.html"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/AmolSamota/InstaBase"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+                
+              </div>
+            </div>
+          </ImageEvent>
+
           
 
           
