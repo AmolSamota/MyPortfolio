@@ -7,6 +7,9 @@ import Card from "react-bootstrap/Card";
 
 // skills
 import Image from "react-bootstrap/Image";
+import L_FIRE from "../../assets/img/skills/firebase.png";
+import L_JSP from "../../assets/img/skills/javascript.svg";
+import L_IMG from "../../assets/img/projects/img.jpeg";
 import L_ISS from "../../assets/img/projects/iss.jfif";
 import L_SFML from "../../assets/img/projects/sfml.jfif";
 import L_TERR from "../../assets/img/projects/terr.png";
@@ -264,7 +267,7 @@ const TimeLine = () => {
             date="16/12/2020"
             className="text-center"
             text="InstaBase(gallery web-app)"
-            src={L_ISS}
+            src={L_IMG}
             alt="React ToDo App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -281,7 +284,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description: Created online images gallery
+                        <strong>Description: Created a online gallery-clone
                         </strong>
                         <hr />
                         <strong>Features:</strong>
@@ -294,17 +297,17 @@ const TimeLine = () => {
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          {/* <li>
+                          <li>
                             <span className="p-2">
                               <Image
-                                src={L_NODE_JS}
+                                src={L_FIRE}
                                 alt="HTML 5"
                                 rounded
                                 className="h image-style m-1"
                               ></Image>{" "}
-                              Node.js
+                              Firebase
                             </span>
-                          </li> */}
+                          </li>
                           <li>
                             <span className="p-2">
                               <Image
@@ -316,17 +319,7 @@ const TimeLine = () => {
                               React
                             </span>
                           </li>
-                          {/* <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li> */}
+                          
                           <li>
                             <span className="p-2">
                               <Image
@@ -350,17 +343,18 @@ const TimeLine = () => {
                             </span>
                           </li>
 
-                          {/* <li>
+                          <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={L_JSP}
+                
                                 alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               JavaScript
                             </span>
-                          </li> */}
+                          </li>
                           
                           
                         </ul>

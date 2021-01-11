@@ -15,6 +15,7 @@ import L_PYTHON from "../../assets/img/skills/python.svg";
 import L_C from "../../assets/img/skills/c.png";
 import L_CL from "../../assets/img/skills/cl.png";
 import L_NET from "../../assets/img/skills/netlify.jpg";
+import L_FIRE from "../../assets/img/skills/firebase.png";
 import L_OS from "../../assets/img/skills/os.png";
 import L_CN from "../../assets/img/skills/cn.png";
 import L_DBMS from "../../assets/img/skills/dbms.png";
@@ -135,11 +136,17 @@ export const skills = {
   ],
   databases: [
    
+    // {
+    //   link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+    //   imgAltText: "MS-SQL",
+    //   imgSrc: L_MSSQL,
+    //   skillName: "MS-SQL",
+    // },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      imgSrc: L_FIRE,
+      skillName: "Firebase",
     },
     {
       link: "https://www.mongodb.com/",
